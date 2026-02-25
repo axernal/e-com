@@ -68,7 +68,7 @@ const CartDrawer = () => {
                   />
                   <div className="flex-1 min-w-0">
                     <h4 className="text-sm font-medium truncate">{item.product.name}</h4>
-                    <p className="text-sm text-muted-foreground">${item.product.price.toFixed(2)}</p>
+                    <p className="text-sm text-muted-foreground">₹{item.product.price.toFixed(2)}</p>
                     <div className="flex items-center gap-2 mt-2">
                       <Button variant="outline" size="icon" className="h-7 w-7" onClick={() => updateQuantity(item.id, item.quantity - 1)}>
                         <Minus className="h-3 w-3" />
@@ -89,7 +89,7 @@ const CartDrawer = () => {
             <div className="border-t pt-4 space-y-4">
               <div className="flex justify-between text-lg font-medium">
                 <span>Total</span>
-                <span>${totalPrice.toFixed(2)}</span>
+                <span>₹{totalPrice.toFixed(2)}</span>
               </div>
               <Button className="w-full" size="lg" onClick={handleCheckout}>
                 Place Order

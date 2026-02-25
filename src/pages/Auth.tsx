@@ -42,13 +42,13 @@ const Auth = () => {
         <div className="max-w-md text-primary-foreground">
           <div className="flex items-center gap-3 mb-8">
             <ShoppingBag className="h-10 w-10" />
-            <span className="text-3xl font-serif">Maison</span>
+            <span className="text-3xl font-serif">Sasta Bazaar</span>
           </div>
           <h1 className="text-4xl font-serif mb-4 leading-tight">
-            Curated essentials for the modern wardrobe.
+            Traditional Indian wear at unbeatable prices.
           </h1>
           <p className="text-primary-foreground/70 text-lg">
-            Timeless pieces crafted with intention. Quality you can feel.
+            Authentic ethnic fashion for every occasion. Style that speaks tradition.
           </p>
         </div>
       </div>
@@ -58,7 +58,7 @@ const Auth = () => {
         <div className="w-full max-w-sm">
           <div className="lg:hidden flex items-center gap-2 mb-8">
             <ShoppingBag className="h-7 w-7" />
-            <span className="text-2xl font-serif">Maison</span>
+            <span className="text-2xl font-serif">Sasta Bazaar</span>
           </div>
 
           <h2 className="text-2xl font-serif mb-1">

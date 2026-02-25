@@ -36,7 +36,7 @@ const ProductCard = ({ id, name, price, image_url, category }: ProductCardProps)
           <p className="text-xs font-medium text-muted-foreground uppercase tracking-wider">{category}</p>
         )}
         <h3 className="text-sm font-medium">{name}</h3>
-        <p className="text-sm text-muted-foreground">${price.toFixed(2)}</p>
+        <p className="text-sm text-muted-foreground">₹{price.toFixed(2)}</p>
       </div>
     </div>
   );

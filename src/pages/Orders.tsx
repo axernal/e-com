@@ -109,7 +109,7 @@ const Orders = () => {
                   <Badge variant="outline" className={statusColor(order.status)}>
                     {order.status}
                   </Badge>
-                  <span className="font-medium">${order.total_amount.toFixed(2)}</span>
+                  <span className="font-medium">₹{order.total_amount.toFixed(2)}</span>
                 </div>
               </div>
               <div className="space-y-3">
@@ -123,7 +123,7 @@ const Orders = () => {
                     <div className="flex-1 min-w-0">
                       <p className="text-sm font-medium truncate">{item.products.name}</p>
                       <p className="text-xs text-muted-foreground">
-                        Qty {item.quantity} × ${item.price_at_purchase.toFixed(2)}
+                        Qty {item.quantity} × ₹{item.price_at_purchase.toFixed(2)}
                       </p>
                     </div>
                   </div>

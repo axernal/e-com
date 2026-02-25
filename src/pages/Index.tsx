@@ -34,9 +34,9 @@ const Index = () => {
     <main className="container mx-auto px-4 py-8">
       {/* Hero */}
       <section className="mb-12 text-center">
-        <h1 className="text-4xl md:text-5xl font-serif mb-3">The Edit</h1>
+        <h1 className="text-4xl md:text-5xl font-serif mb-3">Sasta Bazaar</h1>
         <p className="text-muted-foreground text-lg max-w-md mx-auto">
-          Thoughtfully crafted essentials for everyday living.
+          Traditional Indian wear at unbeatable prices.
         </p>
       </section>
 

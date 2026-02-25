@@ -19,7 +19,7 @@ const Navbar = () => {
       <div className="container mx-auto px-4 h-16 flex items-center justify-between">
         <Link to="/" className="flex items-center gap-2">
           <ShoppingBag className="h-6 w-6" />
-          <span className="text-xl font-serif">Maison</span>
+          <span className="text-xl font-serif">Sasta Bazaar</span>
         </Link>
 
         <nav className="hidden md:flex items-center gap-8">
