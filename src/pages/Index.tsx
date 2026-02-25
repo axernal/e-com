@@ -36,7 +36,7 @@ const Index = () => {
       <section className="mb-12 text-center">
         <h1 className="text-4xl md:text-5xl font-serif mb-3">Sasta Bazaar</h1>
         <p className="text-muted-foreground text-lg max-w-md mx-auto">
-          Traditional Indian wear at unbeatable prices.
+          Everyday wear at unbeatable price.
         </p>
       </section>
 
